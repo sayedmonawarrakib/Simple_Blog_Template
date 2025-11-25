@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class6_HW02</title>
+    <style>
+        .Containar {
+            width: 90%;
+            height: fit-content;
+            margin: auto;
+            border: 1px solid #2c282854;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px #7e7e7e;
+            overflow: hidden;
+        }
+
+
+
+
+        header {
+            display: flex;
+            margin: 0px;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+            border-bottom: 1px solid black;
+        }
+
+        #Logo {
+            font-size: 3rem;
+            margin: 0px;
+            margin-left: 100px;
+            font-family: fantasy;
+            font-variant: petite-caps;
+            font-weight: 400;
+            text-shadow: 0px 0px 10px #00000085;
+        }
+
+        .box1 {
+            width: 90%;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            font-family: monospace;
+        }
+
+    
+
+        .box2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: fit-content;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .box2_item1 {
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: 50vw;
+            align-items: center;
+        }
+
+        .box2_item1 a {
+            text-decoration: none;
+            border: 1px solid #00000040;
+            width: 90%;
+            padding: 10px 0px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 600;
+            background-color: #fff2e187;
+            border-radius: 8px;
+            font-family: math;
+            color: black;
+            margin-top: 7px;
+            box-shadow: 0px 0px 6px #0000004d;
+        }
+
+        .box2_item1 a:hover {
+            transform: scale(.95);
+            transition-duration: .4s;
+            box-shadow: 0px 0px 5px #000000f3;
+        }
+
+        .box2_item2 {
+            padding: 0px 20px;
+            height: 80vh;
+            overflow: overlay;
+            background-color: #e8e8e887;
+            border-left: 1px solid black;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            transition-duration: .5S;
+        }
+
+        .box2_item2::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        h4 {
+            font-size: 30px;
+            margin: 20px 0px;
+            font-family: system-ui;
+        }
+
+        .box2_item2 p {
+            font-family: system-ui;
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333333;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            color: #ffffff;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Containar">
+        <header>
+            <h2 id="Logo">Blog</h2>
+            <div class="box1">
+                <p>Personel Blog</p>
+            </div>
+
+        </header>
+        <section class="box2">
+            <div class="box2_item1">
+                <a href="#Content1">Content1</a>
+                <a href="#Content2">Content2</a>
+                <a href="#Content3">Content3</a>
+                <a href="#Content4">Content4</a>
+                <a href="#Content5">Content5</a>
+                <a href="#Content6">Content6</a>
+                <a href="#Content7">Content7</a>
+                <a href="#Content8">Content8</a>
+                <a href="#Content9">Content9</a>
+                <a href="#Content10">Content10</a>
+                <a href="#Content11">Content11</a>
+                <a href="#Content12">Content12</a>
+            </div>
+            <div class="box2_item2">
+                <h4 id="Content1">Content<mark>1</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content2">Content<mark>2</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content3">Content<mark>3</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content4">Content<mark>4</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content5">Content<mark>5</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content6">Content<mark>6</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content7">Content<mark>7</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content8">Content<mark>8</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content9">Content<mark>9</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content10">Content<mark>10</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                </p>
+                <h4 id="Content11">Content<mark>11</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+
+                </p>
+                <h4 id="Content12">Content<mark>12</mark></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam explicabo consectetur repellendus
+                    hic, dolorem reiciendis odio porro nobis. Temporibus soluta inventore commodi. Neque ullam dolores
+                    natus illo perferendis consequuntur recusandae voluptatem cum pariatur? Corporis, et. Eaque
+                    perferendis non incidunt quia ipsa nam id numquam rem recusandae debitis saepe, laudantium
+                    aspernatur doloremque! Aliquid debitis perspiciatis suscipit ratione temporibus veritatis quibusdam
+                    reiciendis eos sed delectus? Architecto quidem assumenda, sed tempore nulla fugit, repudiandae sint
+                    at impedit rem quam modi eaque? Libero, nesciunt?
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+
+            </div>
+        </section>
+        <footer>
+            <div class="box3">
+                <p>Design and Development By Sayed Monawar Rakib</p>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
